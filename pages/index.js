@@ -23,7 +23,11 @@ export default function Home() {
       }}>
         <div style={{ marginBottom: 16 }}>
           <img
-            src="/logo-color.png"
+           <img
+  src="https://raw.githubusercontent.com/michaux-dimitri/3dlab-vcard/main/public/logo-color.png"
+  alt="3DLab"
+  style={{ height: 52, objectFit: 'contain', filter: 'drop-shadow(0 0 20px rgba(166,255,0,0.35))' }}
+/>
             alt="3DLab"
             style={{ height: 52, objectFit: 'contain', filter: 'drop-shadow(0 0 20px rgba(166,255,0,0.35))' }}
           />
