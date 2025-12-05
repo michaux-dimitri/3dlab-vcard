@@ -8,7 +8,7 @@ export default function Home() {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        background: 'linear-gradient(180deg,#050505,#151515)'
+        background: 'linear-gradient(180deg,#050505,#151515)',
       }}
     >
       <div
@@ -23,18 +23,18 @@ export default function Home() {
           color: '#ffffff',
           fontFamily:
             '-apple-system, system-ui, BlinkMacSystemFont, "SF Pro Text", sans-serif',
-          textAlign: 'center'
+          textAlign: 'center',
         }}
       >
-        {/* --- LOGO --- */}
+        {/* --- LOGO 3DLab --- */}
         <div style={{ marginBottom: 16 }}>
           <img
-            src="/logo-color.png"
+            src="/logo.png"
             alt="3DLab"
             style={{
               height: 52,
               objectFit: 'contain',
-              filter: 'drop-shadow(0 0 20px rgba(166,255,0,0.35))'
+              filter: 'drop-shadow(0 0 20px rgba(166,255,0,0.35))',
             }}
           />
         </div>
@@ -46,7 +46,7 @@ export default function Home() {
             margin: '0 0 8px',
             letterSpacing: '0.12em',
             textTransform: 'uppercase',
-            color: '#A6FF00'
+            color: '#A6FF00',
           }}
         >
           Cartes connectées NFC
@@ -58,12 +58,12 @@ export default function Home() {
             fontSize: 14,
             lineHeight: 1.6,
             opacity: 0.9,
-            marginBottom: 24
+            marginBottom: 24,
           }}
         >
-          Plateforme 3DLab pour cartes NFC : une fiche de contact moderne,
-          la même expérience sur iPhone et Android, et des profils que vos
-          clients peuvent mettre à jour eux-mêmes.
+          Plateforme 3DLab pour cartes NFC : une fiche de contact moderne, la
+          même expérience sur iPhone et Android, et des profils que vos clients
+          peuvent mettre à jour eux-mêmes.
         </p>
 
         {/* --- BOUTON NFC --- */}
@@ -77,7 +77,7 @@ export default function Home() {
             fontWeight: 600,
             fontSize: 14,
             cursor: 'pointer',
-            width: '100%'
+            width: '100%',
           }}
         >
           Scanner une carte NFC 3DLab
@@ -94,7 +94,7 @@ export default function Home() {
             color: '#e5e5e7b',
             fontSize: 13,
             cursor: 'default',
-            width: '100%'
+            width: '100%',
           }}
         >
           Interface d’édition des contacts — en cours d'installation
@@ -107,7 +107,7 @@ export default function Home() {
             fontSize: 11,
             opacity: 0.6,
             display: 'flex',
-            justifyContent: 'space-between'
+            justifyContent: 'space-between',
           }}
         >
           <span>3DLab • Auxerre</span>
